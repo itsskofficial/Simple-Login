@@ -3,7 +3,9 @@ import Card from "../UI/Card"
 
 const LoginForm = (props) => {
 
-    const userName = useRef(
+    const userName = useRef()
+    const userAge = useRef()
+    
     return (
         <Fragment>
             <Card>
