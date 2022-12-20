@@ -5,7 +5,6 @@ import './css/Navbar.css'
 const Navbar = (props) => {
 
     const logoutHandler = (event) => {
-
         props.onLogout(true)
     }
 
