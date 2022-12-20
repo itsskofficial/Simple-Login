@@ -12,7 +12,7 @@ const App = () => {
       setCurrentUser(JSON.parse(storedUserInformation))
     }
 
-  },[storedUserInformation])
+  },[])
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
