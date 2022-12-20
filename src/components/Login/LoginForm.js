@@ -18,6 +18,8 @@ const LoginForm = (props) => {
                 message:"Username and Password fields are compulsory"
             })
         }
+
+        if (userNam)
     }
 
     return (
