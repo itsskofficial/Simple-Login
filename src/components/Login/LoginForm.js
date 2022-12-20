@@ -66,12 +66,10 @@ const LoginForm = (props) => {
                             <input type="text" id="login-form-username-input" className="login-form-username-input" ref={userName}>
                             </input>
                         </div>
-                       <div className="l"
-                        <label for="login-form-password-input" className="login-form-password-label">
-                            Enter Password
-                        </label>
-                        <input type="text" id="login-form-password-input" className="login-form-password-input" ref={userPassword}>
-                        </input>
+                        <div className="login-form-password-container">
+                            
+                       </div>
+                       
                     </form>
                 </div>
             </Card>
