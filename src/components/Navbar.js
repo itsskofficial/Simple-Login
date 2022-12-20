@@ -9,7 +9,9 @@ const Navbar = (props) => {
         </div>
     )
 
-    if (props.loginState==)
+    if (props.loginState === true) {
+        
+    }
     return (
         <Fragment>
             {navbarContents}
