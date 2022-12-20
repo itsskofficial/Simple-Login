@@ -33,7 +33,10 @@ const LoginForm = (props) => {
                 title: "Invalid Password",
                 message: "Password must be atleast 7 characters"
             })
+            return
         }
+
+        props.
     }
 
     return (
