@@ -19,7 +19,9 @@ const Navbar = (props) => {
                     </h1>
                 </div>
                 <div className="navbar-actions">
-                    <Button onClick={logoutHandler} className="navbar-logout"
+                    <Button onClick={logoutHandler} className="navbar-logout">
+                        Logout
+                    </Button>
                 </div>
             </div>
         )
