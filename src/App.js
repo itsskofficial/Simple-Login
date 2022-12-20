@@ -14,7 +14,7 @@ const App = () => {
       setCurrentUser(storedUserInformation)
     }
     console.log(currentUser)
-  },[])
+  },[currentUser])
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
