@@ -12,7 +12,8 @@ const LoginForm = (props) => {
         
         if (userName.current.value.trim().length === 0 || userPassword.current.value.trim().length === 0) {
             error = {
-                title:"Empty Fields"
+                title:"Username or Password is empty",
+                message:""
             }
         }
     }
