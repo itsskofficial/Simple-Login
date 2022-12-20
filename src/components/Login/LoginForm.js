@@ -44,7 +44,7 @@ const LoginForm = (props) => {
 
     return (
         <Fragment>
-            {error && <ErrorModal title={error.title} message={error.message}}
+            {error && <ErrorModal title={error.title} message={error.message} onConfirm={}}
             <Card>
                 <div className="login-form-header">
                     <h2 className="login-form-title">
