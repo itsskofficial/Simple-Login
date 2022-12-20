@@ -6,8 +6,6 @@ const App = () => {
 
   const [currentUser, setCurrentUser] = useState(null)
   
-  
-  
   const onLoginHandler = (user) => {
     setCurrentUser(user)
   }
