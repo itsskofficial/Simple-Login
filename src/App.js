@@ -3,6 +3,8 @@ import LoginForm from "./components/LoginForm";
 import Navbar from "./components/Navbar";
 
 const App = () => {
+
+  const [currentUser,setCurrentUser]
   
   const onLoginHandler = (event) => {
 
