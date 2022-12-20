@@ -4,7 +4,9 @@ const LoginForm = (props) => {
     return (
         <Fragment>
             <Card>
-                <div className="login-form-header"></div>
+                <div className="login-form-header">
+                    <h2 classN></h2>
+                </div>
             </Card>
         </Fragment>
     )
