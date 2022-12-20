@@ -9,7 +9,7 @@ const Navbar = (props) => {
         </div>
     )
 
-    if 
+    if (props.lo)
     return (
         <Fragment>
             {navbarContents}
