@@ -65,7 +65,7 @@ const Navbar = (props) => {
     
     return (
         <Fragment>
-            {navbarContents}
+            {props.user==null?logoutNavbar:navbarContents}
         </Fragment>
     )
 }
