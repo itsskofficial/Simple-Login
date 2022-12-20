@@ -11,7 +11,9 @@ const LoginForm = (props) => {
         event.stopPropagation()
         
         if (userName.current.value.trim().length === 0 || userPassword.current.value.trim().length === 0) {
-            
+            error = {
+                
+            }
         }
     }
 
