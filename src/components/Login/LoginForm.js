@@ -6,14 +6,14 @@ const LoginForm = (props) => {
     const userName = useRef()
     const userPassword = useRef()
 
-    const [error,setError] = useState(nu)
+    const [error,setError] = useState(null)
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
         event.stopPropagation()
         
         if (userName.current.value.trim().length === 0 || userPassword.current.value.trim().length === 0) {
-            error = {
+            seterror = {
                 title:"Username or Password is empty",
                 message:"Username and Password fields are compulsory"
             }
