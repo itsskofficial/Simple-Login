@@ -7,7 +7,7 @@ const App = () => {
   const [currentUser, setCurrentUser] = useState(null)
 
   useEffect(()=>{
-    const storedUserInformation = localStorage.getItem('user')
+    const storedUserInformation = JSON.parse(localStorage.getItem('user'))
     console.log(JSON.parse(storedUserInformation))
     console.log(currentUser)
     if (storedUserInformation != null) {
