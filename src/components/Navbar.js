@@ -19,7 +19,7 @@ const Navbar = (props) => {
                     </h1>
                 </div>
                 <div className="navbar-actions">
-                    <Button type
+                    <Button onClick={}
                 </div>
             </div>
         )
