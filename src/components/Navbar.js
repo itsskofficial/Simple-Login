@@ -4,6 +4,11 @@ import './css/Navbar.css'
 
 const Navbar = (props) => {
 
+    const logoutHandler = (event) => {
+        props.onLogout(true)
+    }
+
+
     const logoutNavbar = 
         <div className="navbar-container">
                 <h1 className="navbar-title">
