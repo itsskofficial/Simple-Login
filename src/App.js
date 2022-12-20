@@ -12,7 +12,7 @@ const App = () => {
 
   const onLogoutHandler = (logout) => {
     if (logout) {
-      
+      setCurrentUser(null)
     }
   }
 
