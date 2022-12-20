@@ -10,6 +10,7 @@ const LoginForm = (props) => {
         event.preventDefault()
         event.stopPropagation()
         
+        if(userName.current.value)
     }
 
     return (
