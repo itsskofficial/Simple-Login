@@ -19,7 +19,7 @@ const LoginForm = (props) => {
             })
         }
 
-        if (userName.current.value.trim().length)
+        if (userName.current.value.trim().length>0)
     }
 
     return (
