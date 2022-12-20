@@ -6,7 +6,7 @@ const LoginForm = (props) => {
             <Card>
                 <div className="login-form-header">
                     <h2 className="login-form-title">
-                        
+                        Login Form
                     </h2>
                 </div>
             </Card>
