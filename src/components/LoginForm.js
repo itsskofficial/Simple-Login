@@ -88,7 +88,8 @@ const LoginForm = (props) => {
 
     return (
         <Fragment>
-            {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler}/>}
+            {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler} />}
+            {console.log(props.user)}
             {props.user!=null?loginForm:<h1 className="after-login-text">Hahahhaa</h1>}
         </Fragment>
     )
