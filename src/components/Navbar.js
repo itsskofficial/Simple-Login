@@ -1,7 +1,7 @@
-import { Fragment } from "react"
+import { Fragment, useState } from "react"
 
 const Navbar = (props) => {
-    const [navbarContents,setnavbarContents]=use
+    const [navbarContents,setnavbarContents]=useState()
     return (
         <Fragment>
             
