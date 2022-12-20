@@ -1,10 +1,12 @@
-import { Fragment, useRef } from "react"
+import { Fragment, useRef, useState } from "react"
 import Card from "../UI/Card"
 
 const LoginForm = (props) => {
 
     const userName = useRef()
     const userPassword = useRef()
+
+    const [error,setError] = useState(nu)
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
