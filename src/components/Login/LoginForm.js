@@ -10,7 +10,7 @@ const LoginForm = (props) => {
         event.preventDefault()
         event.stopPropagation()
         
-        if(userName.current.value)
+        if(userName.current.value.trim().length===0)
     }
 
     return (
