@@ -75,7 +75,7 @@ const LoginForm = (props) => {
                             </input>
                        </div>
                         <div className="login-form-actions">
-                            <Button 
+                            <Button className="login-form"
                         </div>
                     </form>
                 </div>
