@@ -12,6 +12,19 @@ const Navbar = (props) => {
             </div>
 
     const loginNavbar = 
+        <div className="navbar-container">
+                    <div className="navbar-title-container">
+                        <h1 className="navbar-title">
+                            Hello {props.user.username}
+                        </h1>
+                    </div>
+                    <div className="navbar-actions">
+                        <Button onClick={logoutHandler} className="navbar-logout">
+                            Logout
+                        </Button>
+                    </div>
+        </div>
+    
     const [navbarContents, setnavbarContents] = useState(
         <div className="navbar-container">
             <h1 className="navbar-title">
