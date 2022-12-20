@@ -8,4 +8,6 @@
     flex-direction: column;
 }
 
-.login-form-username-label,.login
+.login-form-username-label,.login-form-password-label{
+    font
+}
