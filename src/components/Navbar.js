@@ -7,7 +7,6 @@ const Navbar = (props) => {
                 Welcome
             </h1>
         </div>
-        
     )
     return (
         <Fragment>
