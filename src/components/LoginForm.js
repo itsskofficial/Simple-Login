@@ -1,7 +1,7 @@
 import { Fragment, useRef, useState } from "react"
-import Button from "../UI/Button"
-import Card from "../UI/Card"
-import ErrorModal from "../UI/ErrorModal"
+import Button from "./UI/Button"
+import Card from "./UI/Card"
+import ErrorModal from "./UI/ErrorModal"
 
 const LoginForm = (props) => {
 
@@ -39,6 +39,7 @@ const LoginForm = (props) => {
         }
 
         props.loginSuccessful = true
+        props.
         userName.current.value = ''
         userPassword.current.value=''
     }
