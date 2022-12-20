@@ -42,6 +42,8 @@ const LoginForm = (props) => {
         userPassword.current.value=''
     }
 
+    const errorConfirmHandler = (event) => 
+
     return (
         <Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler}}
