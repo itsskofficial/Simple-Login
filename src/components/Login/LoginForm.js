@@ -4,7 +4,7 @@ import Card from "../UI/Card"
 const LoginForm = (props) => {
 
     const userName = useRef()
-    const userP = useRef()
+    const userPassword = useRef()
     
     return (
         <Fragment>
