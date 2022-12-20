@@ -11,7 +11,9 @@ const Navbar = (props) => {
     )
 
     const logoutHandler = (event) => {
-        
+        setnavbarContents(
+            
+        )
     }
 
     if (props.loginState === true) {
