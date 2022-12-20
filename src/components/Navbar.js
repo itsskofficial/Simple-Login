@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react"
 import Button from "./UI/Button"
-import 
+import './css/Navbar.css'
 
 const Navbar = (props) => {
     const [navbarContents, setnavbarContents] = useState(
