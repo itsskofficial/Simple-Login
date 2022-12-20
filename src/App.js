@@ -14,9 +14,9 @@ const App = () => {
 
   return (
     <Fragment>
-      <Navbar loginSuccessful={onLoginHandler} onLogout={onLogoutHandler} user={currentUser}>
+      <Navbar onLogout={onLogoutHandler} user={currentUser}>
       </Navbar>
-      <LoginForm 
+      <LoginForm loginSuccessful={onLoginHandler}
     </Fragment>
   )
 }
