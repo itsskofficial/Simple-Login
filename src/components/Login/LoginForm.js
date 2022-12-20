@@ -43,7 +43,7 @@ const LoginForm = (props) => {
     }
 
     const errorConfirmHandler = (event) => {
-        
+        setError(null)
     }
 
     return (
