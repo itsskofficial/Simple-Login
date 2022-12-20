@@ -43,6 +43,7 @@ const LoginForm = (props) => {
 
     return (
         <Fragment>
+            {error }
             <Card>
                 <div className="login-form-header">
                     <h2 className="login-form-title">
