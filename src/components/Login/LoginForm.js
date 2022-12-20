@@ -13,10 +13,10 @@ const LoginForm = (props) => {
         event.stopPropagation()
         
         if (userName.current.value.trim().length === 0 || userPassword.current.value.trim().length === 0) {
-            seterror = {
+            setError({
                 title:"Username or Password is empty",
                 message:"Username and Password fields are compulsory"
-            }
+            })
         }
     }
 
