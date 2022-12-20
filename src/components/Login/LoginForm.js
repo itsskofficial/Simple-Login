@@ -1,5 +1,6 @@
 import { Fragment, useRef, useState } from "react"
 import Card from "../UI/Card"
+import ErrorModal from "../UI/ErrorModal"
 
 const LoginForm = (props) => {
 
@@ -43,7 +44,7 @@ const LoginForm = (props) => {
 
     return (
         <Fragment>
-            {error }
+            {error && <ErrorModal title}
             <Card>
                 <div className="login-form-header">
                     <h2 className="login-form-title">
