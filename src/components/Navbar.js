@@ -18,7 +18,7 @@ const Navbar = (props) => {
                 </h1>
             </div>
         )
-        props.onLogout=
+        props.onLogout=true
     }
 
     if (props.loginState === true) {
