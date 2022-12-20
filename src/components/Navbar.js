@@ -10,6 +10,10 @@ const Navbar = (props) => {
         </div>
     )
 
+    const logoutHandler = (event) => {
+        
+    }
+
     if (props.loginState === true) {
         setnavbarContents(
             <div className="navbar-container">
