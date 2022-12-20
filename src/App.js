@@ -12,7 +12,7 @@ const App = () => {
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
-    localStorage.setItem('user','')
+    localStorage.setItem('user',user)
   }
 
   const onLogoutHandler = (logout) => {
