@@ -94,7 +94,7 @@ const LoginForm = (props) => {
     return (
         <Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler}/>}
-            {loginState?loginForm:<h}
+            {loginState?loginForm:<h1>Welcome</h1>}
         </Fragment>
     )
 }
