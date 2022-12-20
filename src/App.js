@@ -16,7 +16,8 @@ const App = () => {
     <Fragment>
       <Navbar onLogout={onLogoutHandler} user={currentUser}>
       </Navbar>
-      <LoginForm loginSuccessful={onLoginHandler}
+      <LoginForm loginSuccessful={onLoginHandler} user={currentUser}>
+      </LoginForm>
     </Fragment>
   )
 }
