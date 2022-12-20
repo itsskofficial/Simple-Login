@@ -5,7 +5,7 @@ const Navbar = (props) => {
         <Fragment>
             <div className="navbar-container">
                 <h1 className="navbar-title">
-                    A nice page
+                    Hello 
                 </h1>
             </div>
         </Fragment>
