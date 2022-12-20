@@ -9,7 +9,9 @@ const App = () => {
   useEffect(()=>{
     const storedUserInformation =localStorage.getItem('user')
 
-    if (storedUserInformation)
+    if (storedUserInformation != null) {
+      
+    }
   })
   
   const onLoginHandler = (user) => {
