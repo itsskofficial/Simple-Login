@@ -43,4 +43,5 @@
 .login-form-actions{
     justify-content: center;
     align-items: center;
+    display: flex;
 }
