@@ -20,7 +20,7 @@ const LoginForm = (props) => {
                     </label>
                     <input type="text" id="login-form-username-input" className="login-form-username-input" ref={userName}>
                     </input>
-                    <label for="login-form-password-input"></label>
+                    <label for="login-form-password-input" className="login-form-username-label"></label>
                 </div>
             </Card>
         </Fragment>
