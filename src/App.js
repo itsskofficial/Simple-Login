@@ -8,6 +8,8 @@ const App = () => {
 
   useEffect(()=>{
     const storedUserInformation =localStorage.getItem('user')
+
+    if (storedUserInformation)
   })
   
   const onLoginHandler = (user) => {
