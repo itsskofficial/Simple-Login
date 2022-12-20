@@ -1,10 +1,12 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import LoginForm from "./components/LoginForm";
 import Navbar from "./components/Navbar";
 
 const App = () => {
 
   const [currentUser, setCurrentUser] = useState(null)
+
+  useEffect()
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
