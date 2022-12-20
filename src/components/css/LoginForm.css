@@ -28,6 +28,5 @@
 
 .login-form-username-container{
     display: flex;
-    justify-content: center;
     align-items:center;
 }
