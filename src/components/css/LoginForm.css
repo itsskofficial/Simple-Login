@@ -10,5 +10,6 @@
 
 .login-form-username-label,.login-form-password-label{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
