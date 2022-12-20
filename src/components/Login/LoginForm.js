@@ -14,7 +14,7 @@ const LoginForm = (props) => {
                     <label for="login-form-username-input">
                         Enter Username
                     </label>
-                    <input id="login-form-username-input"></input>
+                    <input type="text" id="login-form-username-input"></input>
                 </div>
             </Card>
         </Fragment>
