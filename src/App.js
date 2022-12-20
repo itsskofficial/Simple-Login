@@ -10,7 +10,6 @@ const App = () => {
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
-    setLoginState(true)
   }
 
   return (
