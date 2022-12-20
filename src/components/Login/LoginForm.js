@@ -22,7 +22,7 @@ const LoginForm = (props) => {
 
         if (userName.current.value.trim().length < 3) {
             setError({
-                t
+                title:"Invalid UserName"
             })
         }
     }
