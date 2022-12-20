@@ -17,9 +17,10 @@ const LoginForm = (props) => {
                 title:"Username or Password is empty",
                 message:"Username and Password fields are compulsory"
             })
+            return
         }
 
-        if (userName.current.value.trim().length>0)
+        if (userName.current.value.trim().length<)
     }
 
     return (
