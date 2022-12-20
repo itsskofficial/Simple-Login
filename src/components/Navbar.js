@@ -17,16 +17,16 @@ const Navbar = (props) => {
 
     const loginNavbar = 
         <div className="navbar-container">
-                    <div className="navbar-title-container">
-                        <h1 className="navbar-title">
-                            Hello {props.user!=null?props.user.username:''}
-                        </h1>
-                    </div>
-                    <div className="navbar-actions">
-                        <Button onClick={logoutHandler} className="navbar-logout">
-                            Logout
-                        </Button>
-                    </div>
+                <div className="navbar-title-container">
+                    <h1 className="navbar-title">
+                        Hello {props.user!=null?props.user.username:''}
+                    </h1>
+                </div>
+                <div className="navbar-actions">
+                    <Button onClick={logoutHandler} className="navbar-logout">
+                        Logout
+                    </Button>
+                </div>
         </div>
     
     return (
