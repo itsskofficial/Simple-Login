@@ -42,7 +42,7 @@ const LoginForm = (props) => {
             </Card>
     )
 
-    const [loginState,setLoginSate] = useState(false)
+    const [loginState,setLoginState] = useState(false)
 
     if (props.user) {
         setLoginState(true)
