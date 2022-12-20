@@ -10,6 +10,8 @@ const App = () => {
     setCurrentUser(user)
   }
 
+  const 
+
   return (
     <Fragment>
       <Navbar onLogout={onLogoutHandler} user={currentUser}>
