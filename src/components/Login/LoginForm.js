@@ -31,7 +31,7 @@ const LoginForm = (props) => {
         if (userPassword.current.value.trim().length < 7) {
             setError({
                 title: "Invalid Password",
-                message: ""
+                message: "Username must be atleast 7 characters"
             })
         }
     }
