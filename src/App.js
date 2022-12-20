@@ -7,7 +7,8 @@ const App = () => {
   const [currentUser, setCurrentUser] = useState(null)
 
   useEffect(()=>{
-    const storedUserInformation =localStorage.getItem('user')
+    const storedUserInformation = localStorage.getItem('user')
+    console.log(storedUserInformation)
 
     if (storedUserInformation != null) {
       setCurrentUser(storedUserInformation)
