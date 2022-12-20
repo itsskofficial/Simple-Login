@@ -4,12 +4,14 @@ import './css/Navbar.css'
 
 const Navbar = (props) => {
 
-    const loginNavbar = 
+    const logoutNavbar = 
         <div className="navbar-container">
                 <h1 className="navbar-title">
                     Welcome
                 </h1>
             </div>
+
+    const loginNavbar = 
     const [navbarContents, setnavbarContents] = useState(
         <div className="navbar-container">
             <h1 className="navbar-title">
