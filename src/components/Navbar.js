@@ -10,7 +10,9 @@ const Navbar = (props) => {
     )
 
     if (props.loginState === true) {
-        
+        setnavbarContents(
+            
+        )
     }
     return (
         <Fragment>
