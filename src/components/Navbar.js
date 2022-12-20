@@ -17,7 +17,9 @@ const Navbar = (props) => {
                         Hello {props.userName}
                     </h1>
                 </div>
-                <div className="navbar-"
+                <div className="navbar-logout">
+                    <
+                </div>
             </div>
         )
     }
