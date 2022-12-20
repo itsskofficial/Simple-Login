@@ -19,7 +19,7 @@
 
 .navbar-actions{
     width:50%;
-    justify-content: flex-end;
+    justify-content: right;
     align-items: center;
     display: flex;
 }
