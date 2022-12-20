@@ -41,7 +41,9 @@ const LoginForm = (props) => {
         props.loginSuccessful({
             username: userName.current.value,
             password:userPassword.current.value
-        })
+        },
+            
+        )
 
         userName.current.value = ''
         userPassword.current.value=''
