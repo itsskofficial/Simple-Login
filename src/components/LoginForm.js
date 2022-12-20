@@ -90,7 +90,7 @@ const LoginForm = (props) => {
     return (
         <Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler} />}
-            {props.user == null ? loginForm : <h1 className="after-login-text">Ha]]</h1>}
+            {props.user == null ? loginForm : <h1 className="after-login-text">I Love </h1>}
         </Fragment>
     )
 }
