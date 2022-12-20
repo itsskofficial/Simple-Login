@@ -1,7 +1,7 @@
 import { Fragment } from "react"
 
 const Navbar = (props) => {
-    const navbar
+    const [navbarContents,set]
     return (
         <Fragment>
             
