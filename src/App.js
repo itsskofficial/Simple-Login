@@ -11,6 +11,7 @@ const App = () => {
   }
 
   const onLogoutHandler = (logout) => {
+    console.log(logout)
     if (logout) {
       setCurrentUser(null)
     }
