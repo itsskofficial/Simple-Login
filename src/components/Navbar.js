@@ -1,7 +1,9 @@
 import { Fragment, useState } from "react"
 
 const Navbar = (props) => {
-    const [navbarContents,setnavbarContents]=useState()
+    const [navbarContents, setnavbarContents] = useState(
+        <
+    )
     return (
         <Fragment>
             
