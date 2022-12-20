@@ -41,12 +41,6 @@ const LoginForm = (props) => {
                 </div>
             </Card>
     )
-
-    const [loginState,setLoginState] = useState(false)
-
-    if (props.user) {
-        setLoginState(true)
-    }
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
@@ -94,7 +88,7 @@ const LoginForm = (props) => {
     return (
         <Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler}/>}
-            { props.user?loginForm:<h1 className="after-login-text">Hahahhaa</h1>}
+            {props.user?loginForm:<h1 className="after-login-text">Hahahhaa</h1>}
         </Fragment>
     )
 }
