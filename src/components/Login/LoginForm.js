@@ -12,7 +12,7 @@ const LoginForm = (props) => {
         
         if (userName.current.value.trim().length === 0 || userPassword.current.value.trim().length === 0) {
             error = {
-                
+                title:""
             }
         }
     }
