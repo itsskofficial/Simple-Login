@@ -1,4 +1,5 @@
 import { Fragment, useRef, useState } from "react"
+import Button from "../UI/Button"
 import Card from "../UI/Card"
 import ErrorModal from "../UI/ErrorModal"
 
@@ -73,7 +74,9 @@ const LoginForm = (props) => {
                             <input type="text" id="login-form-password-input" className="login-form-password-input" ref={userPassword}>
                             </input>
                        </div>
-                        <div className=""
+                        <div className="login-form-actions">
+                            <Button 
+                        </div>
                     </form>
                 </div>
             </Card>
