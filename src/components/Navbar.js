@@ -1,4 +1,5 @@
 import { Fragment, useState } from "react"
+import Button from "./UI/Button"
 
 const Navbar = (props) => {
     const [navbarContents, setnavbarContents] = useState(
@@ -17,8 +18,8 @@ const Navbar = (props) => {
                         Hello {props.userName}
                     </h1>
                 </div>
-                <div className="navbar-logout">
-                    <
+                <div className="navbar-actions">
+                    <Button type
                 </div>
             </div>
         )
