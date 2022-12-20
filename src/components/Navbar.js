@@ -18,6 +18,7 @@ const Navbar = (props) => {
                 </h1>
             </div>
         )
+        
     }
 
     if (props.loginState === true) {
