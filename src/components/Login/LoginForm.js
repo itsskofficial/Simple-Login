@@ -20,7 +20,11 @@ const LoginForm = (props) => {
             return
         }
 
-        if (userName.current.value.trim().length<)
+        if (userName.current.value.trim().length < 3) {
+            setError({
+                t
+            })
+        }
     }
 
     return (
