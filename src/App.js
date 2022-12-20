@@ -8,7 +8,7 @@ const App = () => {
   
   
   const onLoginHandler = (event) => {
-
+    setCurrentUser
   }
 
   return (
