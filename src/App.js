@@ -6,7 +6,9 @@ const App = () => {
 
   const [currentUser, setCurrentUser] = useState(null)
 
-  useEffect(()=>)
+  useEffect(()=>{
+    const storedUserInformation =localStorage.ge
+  })
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
