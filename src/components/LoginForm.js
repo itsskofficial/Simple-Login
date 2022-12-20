@@ -41,7 +41,8 @@ const LoginForm = (props) => {
                 </div>
             </Card>
     )
-    const [loginState,setLoginSate]
+    
+    const [loginState,setLoginSate] = useState(false)
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
