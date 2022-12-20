@@ -5,7 +5,9 @@ const LoginForm = (props) => {
         <Fragment>
             <Card>
                 <div className="login-form-header">
-                    <h2 classN></h2>
+                    <h2 className="login-form-title">
+                        
+                    </h2>
                 </div>
             </Card>
         </Fragment>
