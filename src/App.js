@@ -11,7 +11,7 @@ const App = () => {
     console.log(JSON.parse(storedUserInformation))
     console.log(currentUser)
     if (storedUserInformation != null) {
-      setCurrentUser(storedUserInformation)
+      setCurrentUser(JSON.parse(storedUserInformation))
     }
     console.log(currentUser)
   },[currentUser])
