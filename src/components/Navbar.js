@@ -15,7 +15,7 @@ const Navbar = (props) => {
             <div className="navbar-container">
                 <div className="navbar-title-container">
                     <h1 className="navbar-title">
-                        Hello {props.user.username}
+                        Welcome
                     </h1>
                 </div>
             </div>
