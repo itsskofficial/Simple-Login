@@ -1,8 +1,10 @@
+import { Fragment } from "react"
+
 const Navbar = (props) => {
     return (
-        <div>
-
-        </div>
+        <Fragment>
+            
+        </Fragment>
     )
 }
 
