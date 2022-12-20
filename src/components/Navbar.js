@@ -12,7 +12,11 @@ const Navbar = (props) => {
 
     const logoutHandler = (event) => {
         setnavbarContents(
-            
+            <div className="navbar-container">
+                <h1 className="navbar-title">
+                    Welcome
+                </h1>
+            </div>
         )
     }
 
