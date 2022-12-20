@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import Card from "../UI/Card"
 
 const LoginForm = (props) => {
     return (
