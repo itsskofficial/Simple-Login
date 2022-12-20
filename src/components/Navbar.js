@@ -17,7 +17,7 @@ const Navbar = (props) => {
                         Hello {props.userName}
                     </h1>
                 </div>
-                <div
+                <div className="navbar-"
             </div>
         )
     }
