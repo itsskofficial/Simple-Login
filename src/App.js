@@ -17,6 +17,7 @@ const App = () => {
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
+    console.log(currentUser)
     localStorage.setItem('user',currentUser)
   }
 
