@@ -42,7 +42,9 @@ const LoginForm = (props) => {
         userPassword.current.value=''
     }
 
-    const errorConfirmHandler = (event) => 
+    const errorConfirmHandler = (event) => {
+        
+    }
 
     return (
         <Fragment>
