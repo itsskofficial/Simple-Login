@@ -6,8 +6,8 @@ const LoginForm = (props) => {
     const userName = useRef()
     const userPassword = useRef()
     
-    const formSubmitHandler = (props) => {
-        
+    const formSubmitHandler = (event) => {
+        event.preve
     }
 
     return (
