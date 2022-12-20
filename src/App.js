@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 const App = () => {
 
   const [currentUser, setCurrentUser] = useState(null)
-  const [loginState,setLoginState]
+  const [loginState, setLoginState] = useState(false)
+  
   
   
   const onLoginHandler = (user) => {
