@@ -40,6 +40,7 @@ const Navbar = (props) => {
             </div>
         )
     }
+    
     return (
         <Fragment>
             {navbarContents}
