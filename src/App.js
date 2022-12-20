@@ -10,9 +10,9 @@ const App = () => {
     const storedUserInformation =localStorage.getItem('user')
 
     if (storedUserInformation != null) {
-      setCurrentUser(storedUserInf)
+      setCurrentUser(storedUserInformation)
     }
-  })
+  },[])
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
