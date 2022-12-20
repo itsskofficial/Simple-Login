@@ -28,7 +28,9 @@ const LoginForm = (props) => {
             return
         }
 
-        if (userPassword.current.value.trim().length<)
+        if (userPassword.current.value.trim().length < 7) {
+            setError()
+        }
     }
 
     return (
