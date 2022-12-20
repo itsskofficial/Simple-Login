@@ -23,6 +23,9 @@ const LoginForm = (props) => {
                     <label for="login-form-password-input" className="login-form-password-label">
                         Enter Password
                     </label>
+                    <input type="text" id>
+
+                    </input>
                 </div>
             </Card>
         </Fragment>
