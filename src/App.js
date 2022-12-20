@@ -1,11 +1,14 @@
+import { Fragment } from "react";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <frage
-    <Navbar loginSuccessful={onLoginHandler} onLogout={onLogoutHandler}>
-
+    <Fragment>
+      <Navbar loginSuccessful={onLoginHandler} onLogout={onLogoutHandler}>
+        
     </Navbar>
+    </Fragment>
+    
 
   )
 }
