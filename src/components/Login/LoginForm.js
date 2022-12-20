@@ -37,6 +37,7 @@ const LoginForm = (props) => {
         }
 
         props.loginSuccessful = true
+        
     }
 
     return (
