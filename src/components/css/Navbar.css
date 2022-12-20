@@ -4,7 +4,9 @@
     display: flex;
 }
 
-.navbar-
+.navbar-title-container{
+    width:50%
+}
 .navbar-title{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
