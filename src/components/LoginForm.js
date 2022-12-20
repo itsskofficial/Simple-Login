@@ -2,6 +2,7 @@ import { Fragment, useRef, useState } from "react"
 import Button from "./UI/Button"
 import Card from "./UI/Card"
 import ErrorModal from "./UI/ErrorModal"
+import './css/LoginForm.css'
 
 const LoginForm = (props) => {
 
