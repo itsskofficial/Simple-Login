@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <Navbar loginSuccessful={onLoginHandler} l
+    <Navbar loginSuccessful={onLoginHandler} onLogout={on}
   )
 }
 
