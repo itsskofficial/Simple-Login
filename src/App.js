@@ -5,8 +5,7 @@ const App = () => {
   return (
     <Fragment>
       <Navbar loginSuccessful={onLoginHandler} onLogout={onLogoutHandler}>
-        
-    </Navbar>
+      </Navbar>
     </Fragment>
     
 
