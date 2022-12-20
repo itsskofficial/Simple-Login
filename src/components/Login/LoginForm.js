@@ -11,7 +11,7 @@ const LoginForm = (props) => {
                     </h2>
                 </div>
                 <div className="login-form-content">
-                    <label for
+                    <label for=""
                 </div>
             </Card>
         </Fragment>
