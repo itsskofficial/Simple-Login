@@ -40,7 +40,6 @@ const LoginForm = (props) => {
                     </form>
                 </div>
             </Card>
-    )
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
