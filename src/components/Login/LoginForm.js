@@ -36,7 +36,7 @@ const LoginForm = (props) => {
             return
         }
 
-        props.
+        props.l
     }
 
     return (
