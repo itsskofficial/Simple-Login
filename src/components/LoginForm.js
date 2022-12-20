@@ -44,7 +44,9 @@ const LoginForm = (props) => {
 
     const [loginState,setLoginSate] = useState(false)
 
-    if (props.user)
+    if (props.user) {
+        setLogi
+    }
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
