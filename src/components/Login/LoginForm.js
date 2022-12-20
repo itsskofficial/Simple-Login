@@ -60,7 +60,11 @@ const LoginForm = (props) => {
                 <div className="login-form-container">
                     <form onSubmit={formSubmitHandler}>
                         <div className="login-form-username-container">
-
+                        <label for="login-form-username-input" className="login-form-username-label">
+                            Enter Username
+                        </label>
+                        <input type="text" id="login-form-username-input" className="login-form-username-input" ref={userName}>
+                        </input>
                         </div>
                        
                         <label for="login-form-password-input" className="login-form-password-label">
