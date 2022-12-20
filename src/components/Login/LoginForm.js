@@ -12,7 +12,7 @@ const LoginForm = (props) => {
                 </div>
                 <div className="login-form-content">
                     <label for="login-form-username-input">
-                        Enter 
+                        Enter Useran
                     </label>
                 </div>
             </Card>
