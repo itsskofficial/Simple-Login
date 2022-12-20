@@ -9,7 +9,7 @@ const LoginForm = (props) => {
     const userPassword = useRef()
 
     const [error, setError] = useState(null)
-    loginForm =
+    const loginForm =
                 <Card>
                 <div className="login-form-header">
                     <h2 className="login-form-title">
