@@ -9,7 +9,7 @@ const LoginForm = (props) => {
     const userPassword = useRef()
 
     const [error, setError] = useState(null)
-    const [loginForm,setLoginForm]
+    const [loginForm,setLoginForm] = use
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
