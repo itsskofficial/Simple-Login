@@ -24,7 +24,6 @@ const LoginForm = (props) => {
                         Enter Password
                     </label>
                     <input type="text" id="login-form-password-input" className="login-form-password-input" ref={userPassword}>
-
                     </input>
                 </div>
             </Card>
