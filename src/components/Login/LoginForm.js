@@ -8,7 +8,8 @@ const LoginForm = (props) => {
     
     const formSubmitHandler = (event) => {
         event.preventDefault()
-        eev
+        event.stopPropagation()
+        
     }
 
     return (
