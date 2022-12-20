@@ -23,7 +23,7 @@ const LoginForm = (props) => {
         if (userName.current.value.trim().length < 3) {
             setError({
                 title:"Invalid UserName",
-                message:""
+                message:"Username must be more than 3 "
             })
         }
     }
