@@ -10,7 +10,7 @@ const App = () => {
     setCurrentUser(user)
   }
 
-  const 
+  const onLogoutHandler = ()
 
   return (
     <Fragment>
