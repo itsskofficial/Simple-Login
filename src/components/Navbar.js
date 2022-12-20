@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react"
+import { Fragment } from "react"
 import Button from "./UI/Button"
 import './css/Navbar.css'
 
