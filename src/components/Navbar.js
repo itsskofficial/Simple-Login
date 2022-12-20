@@ -10,7 +10,7 @@ const Navbar = (props) => {
     )
     return (
         <Fragment>
-            
+            {navbarContents}
         </Fragment>
     )
 }
