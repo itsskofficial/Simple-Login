@@ -13,6 +13,7 @@ const App = () => {
     if (storedUserInformation != null) {
       setCurrentUser(storedUserInformation)
     }
+    console.log(currentUser)
   },[])
   
   const onLoginHandler = (user) => {
