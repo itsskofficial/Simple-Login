@@ -13,11 +13,11 @@ const Navbar = (props) => {
         setnavbarContents(
             <div className="navbar-container">
                 <div className="navbar-title-container">
-                    
+                    <h1 className="navbar-title">
+                        Hello {props.userName}
+                    </h1>
                 </div>
-                <h1 className="navbar-title">
-                    Hello {props.userName}
-                </h1>
+                <div
             </div>
         )
     }
