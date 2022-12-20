@@ -28,7 +28,7 @@ const LoginForm = (props) => {
             return
         }
 
-        if (userName.current.value.trim().length)
+        if (userPassword.current.value.trim().length<)
     }
 
     return (
