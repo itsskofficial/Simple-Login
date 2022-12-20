@@ -45,7 +45,7 @@ const LoginForm = (props) => {
     const [loginState,setLoginSate] = useState(false)
 
     if (props.user) {
-        setLogi
+        setLoginState(true)
     }
     
     const formSubmitHandler = (event) => {
@@ -94,7 +94,7 @@ const LoginForm = (props) => {
     return (
         <Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler}/>}
-            {}
+            {if }
         </Fragment>
     )
 }
