@@ -8,7 +8,7 @@ const App = () => {
   
   
   const onLoginHandler = (user) => {
-    setCurrentUser()
+    setCurrentUser(user)
   }
 
   return (
