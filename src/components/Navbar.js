@@ -12,7 +12,9 @@ const Navbar = (props) => {
     if (props.loginState === true) {
         setnavbarContents(
             <div className="navbar-container">
-                <div
+                <div className="navbar-title-container">
+                    
+                </div>
                 <h1 className="navbar-title">
                     Hello {props.userName}
                 </h1>
