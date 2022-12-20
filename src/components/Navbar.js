@@ -34,15 +34,6 @@ const Navbar = (props) => {
     // )
 
     const logoutHandler = (event) => {
-        setnavbarContents(
-            <div className="navbar-container">
-                <div className="navbar-title-container">
-                    <h1 className="navbar-title">
-                        Welcome
-                    </h1>
-                </div>
-            </div>
-        )
         props.onLogout(true)
     }
 
