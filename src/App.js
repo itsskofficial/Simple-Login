@@ -7,8 +7,6 @@ const App = () => {
       <Navbar loginSuccessful={onLoginHandler} onLogout={onLogoutHandler}>
       </Navbar>
     </Fragment>
-    
-
   )
 }
 
