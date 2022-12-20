@@ -17,7 +17,7 @@ const App = () => {
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
-    localStorage.setItem('user',user)
+    localStorage.setItem('user',JSON.stringify(currentUser))
   }
 
   const onLogoutHandler = (logout) => {
