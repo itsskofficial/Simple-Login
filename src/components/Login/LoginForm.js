@@ -23,7 +23,7 @@ const LoginForm = (props) => {
                     <label for="login-form-password-input" className="login-form-password-label">
                         Enter Password
                     </label>
-                    <input type="text" id>
+                    <input type="text" id="login-form-">
 
                     </input>
                 </div>
