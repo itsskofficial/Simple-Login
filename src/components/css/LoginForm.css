@@ -3,4 +3,7 @@
     font-weight: bold;
 }
 
-.
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+}
