@@ -6,7 +6,7 @@ const App = () => {
 
   const [currentUser, setCurrentUser] = useState(null)
 
-  useEffect(())
+  useEffect(()=>)
   
   const onLoginHandler = (user) => {
     setCurrentUser(user)
