@@ -24,7 +24,7 @@ const Navbar = (props) => {
         props.onLogout(true)
     }
 
-    if (props.user) {
+    if (props.user!=null) {
         setnavbarContents(
             <div className="navbar-container">
                 <div className="navbar-title-container">
