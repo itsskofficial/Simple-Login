@@ -8,6 +8,8 @@ const Navbar = (props) => {
             </h1>
         </div>
     )
+
+    if 
     return (
         <Fragment>
             {navbarContents}
