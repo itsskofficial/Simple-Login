@@ -15,6 +15,7 @@ const LoginForm = (props) => {
                     </h2>
                 </div>
                 <div className="login-form-content">
+                <form></form>
                     <label for="login-form-username-input" className="login-form-username-label">
                         Enter Username
                     </label>
