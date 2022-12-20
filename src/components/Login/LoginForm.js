@@ -44,7 +44,8 @@ const LoginForm = (props) => {
 
     const errorConfirmHandler = (event) => {
         setError(null)
-        userName.current.value=
+        userName.current.value = ''
+        userPassword.current.value=''
     }
 
     return (
