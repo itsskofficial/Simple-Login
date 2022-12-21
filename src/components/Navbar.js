@@ -8,7 +8,7 @@ const Navbar = (props) => {
     const ctx = useContext(AuthContext)
     
     const logoutHandler = (event) => {
-        props.onLogout(true)
+        ctx.onLogout(true)
     }
 
     const logoutNavbar = 
