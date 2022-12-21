@@ -10,7 +10,7 @@ const App = () => {
       <Fragment>
         <Navbar >
         </Navbar>
-        <LoginForm >
+        <LoginForm>
         </LoginForm>
       </Fragment>
   )
