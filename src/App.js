@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import LoginForm from "./components/LoginForm";
 import Navbar from "./components/Navbar";
+import AuthContext from "./store/auth-context";
 
 const App = () => {
 
@@ -26,13 +27,15 @@ const App = () => {
   }
 
   return (
-    <A
-    <Fragment>
-      <Navbar onLogout={onLogoutHandler} user={currentUser}>
-      </Navbar>
-      <LoginForm loginSuccessful={onLoginHandler} user={currentUser}>
-      </LoginForm>
-    </Fragment>
+    <AuthContext.Provider>
+      <Fragment>
+        <Navbar onLogout={onLogoutHandler} user={currentUser}>
+        </Navbar>
+        <LoginForm loginSuccessful={onLoginHandler} user={currentUser}>
+        </LoginForm>
+      </Fragment>
+    </AuthContext.Provider>
+    
   )
 }
 
