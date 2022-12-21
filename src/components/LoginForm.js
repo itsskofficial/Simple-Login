@@ -91,12 +91,14 @@ const LoginForm = (props) => {
     return (
         <AuthContext.Consumer>
             {(ctx) => {
-                
+                return (
+                    <Fragment>
+                        {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler} />}
+                        {props.user == null ? loginForm : <h1 className="after-login-text">I Love Ojaswini</h1>}
+                    </Fragment>
+                )
             }}
-            <Fragment>
-                {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler} />}
-                {props.user == null ? loginForm : <h1 className="after-login-text">I Love Ojaswini</h1>}
-            </Fragment>
+            
         </AuthContext.Consumer>
     )
 }
