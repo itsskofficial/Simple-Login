@@ -6,10 +6,7 @@ import AuthContext from "../store/auth-context"
 const Navbar = (props) => {
     <AuthContext.Consumer>
         {(ctx) => {
-            
-        }}
-    </AuthContext.Consumer>
-    const logoutHandler = (event) => {
+            const logoutHandler = (event) => {
         props.onLogout(true)
     }
 
@@ -33,6 +30,9 @@ const Navbar = (props) => {
                     </Button>
                 </div>
         </div>
+        }}
+    </AuthContext.Consumer>
+    
     
     return (
         <AuthContext.Consumer>
