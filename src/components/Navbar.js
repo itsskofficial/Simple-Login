@@ -32,11 +32,10 @@ const Navbar = (props) => {
     
     return (
         <AuthContext.Consumer>
-        <Fragment>
-            {props.user==null?logoutNavbar:loginNavbar}
-        </Fragment>
+            <Fragment>
+                {props.user==null?logoutNavbar:loginNavbar}
+            </Fragment>
         </AuthContext.Consumer>
-        
     )
 }
 
