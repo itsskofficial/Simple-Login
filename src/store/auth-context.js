@@ -1,4 +1,4 @@
-import React from "react"
+import {React from "react"
 
 const AuthContext = React.createContext({
     user: null,
@@ -33,7 +33,9 @@ const AuthContextProvider = (props) => {
             user: currentUser,
             onLogout : onLogoutHandler,
             loginSuccessful : onLoginHandler
-        }}
+        }}>
+            {props.children}
+        </AuthContext.Provider>
     )
 }
 
