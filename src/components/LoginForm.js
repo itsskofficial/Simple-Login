@@ -1,4 +1,4 @@
-import { Fragment, useRef, useState } from "react"
+import { Fragment, useContext, useRef, useState } from "react"
 import Button from "./UI/Button"
 import Card from "./UI/Card"
 import ErrorModal from "./UI/ErrorModal"
@@ -7,7 +7,7 @@ import AuthContext from "../store/auth-context"
 
 const LoginForm = (props) => {
 
-    const ctx=
+    const ctx=useContext(AuthContext)
 
     const userName = useRef()
     const userPassword = useRef()
