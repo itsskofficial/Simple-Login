@@ -3,9 +3,6 @@ import LoginForm from "./components/LoginForm";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-
- 
-
   return (
       <Fragment>
         <Navbar >
