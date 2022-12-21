@@ -4,7 +4,7 @@ import './css/Navbar.css'
 import AuthContext from "../store/auth-context"
 
 const Navbar = (props) => {
-
+    <AuthContext.Consumer
     const logoutHandler = (event) => {
         props.onLogout(true)
     }
