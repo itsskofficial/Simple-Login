@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import Button from "./UI/Button"
 import './css/Navbar.css'
+import AuthContext from "../store/auth-context"
 
 const Navbar = (props) => {
 
@@ -30,9 +31,12 @@ const Navbar = (props) => {
         </div>
     
     return (
+        <AuthContext.Consumer>
         <Fragment>
             {props.user==null?logoutNavbar:loginNavbar}
         </Fragment>
+        </AuthContext.Consumer>
+        
     )
 }
 
