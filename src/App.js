@@ -8,14 +8,12 @@ const App = () => {
  
 
   return (
-    <AuthContext.Provider value={{  }}>
       <Fragment>
         <Navbar onLogout={onLogoutHandler}>
         </Navbar>
         <LoginForm loginSuccessful={onLoginHandler}>
         </LoginForm>
       </Fragment>
-    </AuthContext.Provider>
   )
 }
 
