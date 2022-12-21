@@ -97,8 +97,7 @@ const LoginForm = (props) => {
                         {props.user == null ? loginForm : <h1 className="after-login-text">I Love Ojaswini</h1>}
                     </Fragment>
                 )
-            }}
-            
+            }}     
         </AuthContext.Consumer>
     )
 }
