@@ -34,10 +34,9 @@ const Navbar = (props) => {
         <AuthContext.Consumer>
             {(ctx) => {
                 <Fragment>
-                {ctx.user==null?logoutNavbar:loginNavbar}
-            </Fragment>
+                    {ctx.user==null?logoutNavbar:loginNavbar}
+                </Fragment>
             }}
-            
         </AuthContext.Consumer>
     )
 }
