@@ -95,9 +95,6 @@ const LoginForm = (props) => {
                 {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorConfirmHandler} />}
                 {ctx.user == null ? loginForm : <h1 className="after-login-text">I Love Ojaswini</h1>}
             </Fragment>
-                )
-            }}     
-        </AuthContext.Consumer>
     )
 }
 
