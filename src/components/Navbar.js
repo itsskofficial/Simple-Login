@@ -20,7 +20,7 @@ const Navbar = (props) => {
         <div className="navbar-container">
                 <div className="navbar-title-container">
                     <h1 className="navbar-title">
-                        Hello {props.user!=null?props.user.username:''}
+                        Hello {props.user!=null?ctx.username:''}
                     </h1>
                 </div>
                 <div className="navbar-actions">
@@ -33,7 +33,7 @@ const Navbar = (props) => {
     return (
         <AuthContext.Consumer>
             <Fragment>
-                {props.user==null?logoutNavbar:loginNavbar}
+                {ctx.user==null?logoutNavbar:loginNavbar}
             </Fragment>
         </AuthContext.Consumer>
     )
