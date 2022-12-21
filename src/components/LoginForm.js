@@ -42,7 +42,7 @@ const LoginForm = (props) => {
             return
         }
 
-        props.loginSuccessful({
+        ctx.loginSuccessful({
             username: userName.current.value,
             password:userPassword.current.value
         })
