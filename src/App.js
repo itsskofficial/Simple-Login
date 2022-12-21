@@ -1,7 +1,6 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
 import LoginForm from "./components/LoginForm";
 import Navbar from "./components/Navbar";
-import AuthContext from "./store/auth-context";
 
 const App = () => {
 
