@@ -26,6 +26,7 @@ const App = () => {
   }
 
   return (
+    <
     <Fragment>
       <Navbar onLogout={onLogoutHandler} user={currentUser}>
       </Navbar>
