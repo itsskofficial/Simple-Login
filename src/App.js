@@ -8,9 +8,9 @@ const App = () => {
 
   return (
       <Fragment>
-        <Navbar onLogout={onLogoutHandler}>
+        <Navbar >
         </Navbar>
-        <LoginForm loginSuccessful={onLoginHandler}>
+        <LoginForm >
         </LoginForm>
       </Fragment>
   )
