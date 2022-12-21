@@ -27,7 +27,7 @@ const App = () => {
   }
 
   return (
-    <AuthContext.Provider value={{ currentUser: null }}>
+    <AuthContext.Provider value={{ currentUser: currentUser }}>
       <Fragment>
         <Navbar onLogout={onLogoutHandler} user={currentUser}>
         </Navbar>
