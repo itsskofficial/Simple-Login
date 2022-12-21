@@ -1,1 +1,3 @@
-const AuthContext = React
+const AuthContext = React.createContext({
+    
+})
