@@ -25,6 +25,10 @@ const AuthContextProvider = (props) => {
         setCurrentUser(null)
       }
     }
+
+    return (
+        <AuthCon
+    )
 }
 
 export default AuthContext
