@@ -1,4 +1,4 @@
-import {React from "react"
+import { React, useEffect } from "react"
 
 const AuthContext = React.createContext({
     user: null,
@@ -6,7 +6,7 @@ const AuthContext = React.createContext({
     loginSuccessful : () => {}
 })
 
-const AuthContextProvider = (props) => {
+export const AuthContextProvider = (props) => {
     const [currentUser, setCurrentUser] = useState(null)
 
     useEffect(()=>{
