@@ -16,22 +16,22 @@ const Navbar = (props) => {
             </div>
 
     const loginNavbar = 
-    <AuthContext.Consumer>
-        {(ctx)=>{
-            <div className="navbar-container">
-                <div className="navbar-title-container">
-                    <h1 className="navbar-title">
-                        Hello {ctx.user!=null?ctx.username:''}
-                    </h1>
+        <AuthContext.Consumer>
+            {(ctx)=>{
+                <div className="navbar-container">
+                    <div className="navbar-title-container">
+                        <h1 className="navbar-title">
+                            Hello {ctx.user!=null?ctx.username:''}
+                        </h1>
+                    </div>
+                    <div className="navbar-actions">
+                        <Button onClick={logoutHandler} className="navbar-logout">
+                            Logout
+                        </Button>
+                    </div>
                 </div>
-                <div className="navbar-actions">
-                    <Button onClick={logoutHandler} className="navbar-logout">
-                        Logout
-                    </Button>
-                </div>
-            </div>
-        }}
-    </AuthContext.Consumer>
+            }}
+        </AuthContext.Consumer>
         
     
     return (
