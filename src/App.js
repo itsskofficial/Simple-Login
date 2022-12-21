@@ -8,7 +8,7 @@ const App = () => {
  
 
   return (
-    <AuthContext.Provider value={{ user: currentUser }}>
+    <AuthContext.Provider value={{  }}>
       <Fragment>
         <Navbar onLogout={onLogoutHandler}>
         </Navbar>
