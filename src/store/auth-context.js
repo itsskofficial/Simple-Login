@@ -1,7 +1,8 @@
 import React from "react"
 
 const AuthContext = React.createContext({
-    user:null
+    user: null
+    
 })
 
 const AuthContextProvider = (props) => {
@@ -27,7 +28,9 @@ const AuthContextProvider = (props) => {
     }
 
     return (
-        <AuthCon
+        <AuthContext.Provider value={{
+
+        }}
     )
 }
 
