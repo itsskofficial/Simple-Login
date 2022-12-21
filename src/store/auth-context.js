@@ -30,7 +30,8 @@ const AuthContextProvider = (props) => {
     return (
         <AuthContext.Provider value={{
             user: currentUser,
-            onLogout : onLogoutHandler
+            onLogout : onLogoutHandler,
+            loginSuccessful : onLoginHandler
         }}
     )
 }
